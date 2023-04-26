@@ -1,0 +1,28 @@
+load res/cat.jpg cat
+load res/earth.ppm earth
+load res/london.bmp london
+load res/manhattan.png manhattan
+load res/dog.jpeg dog
+brighten 10 earth earthBri
+brighten -10 london londonDark
+vertical-flip manhattan manFlipped
+horizontal-flip cat upSideCat
+sepia cat catSepia
+greyscale london londonOld
+sharpen earth sharpEarth
+blur london londBlur
+red-component dog dogRed
+green-component dog dogGreen
+blue-component dog dogBlue
+luma-component dog dogGrey
+intensity-component dog dogIntense
+value-component dog dogValue
+save res/earthBright.ppm earthBri
+save res/londonDark.png londonDark
+save res/manFlipped.jpg manFlipped
+save res/upsideCat.bmp upSideCat
+save res/catSepia.jpeg catSepia
+save res/oldLondon.png londonOld
+save res/londonBlur.png londBlur
+save res/earthSharp.ppm sharpEarth
+
